@@ -1,4 +1,4 @@
-/*Solution to Prime Path-PPATH on Spoj*/
+/*Solution to Prime Path-PPATH on Spoj */
 #include<bits/stdc++.h>
 using namespace std;
 int input()
