@@ -41,14 +41,6 @@ int main()
 			z=min(y,b[i][j-1]);
 			b[i][j]=z+a[i][j];
 		}
-		/*for(i=0;i<n;i++)
-		{
-			for(j=0;j<3;j++)
-			{
-				cout<<b[i][j]<<" ";
-			}
-			cout<<"\n";
-		}*/
 		printf("%lld. %lld\n",cs,b[n-1][1]);cs++;
 	}
 }

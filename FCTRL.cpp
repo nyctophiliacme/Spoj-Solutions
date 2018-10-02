@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
- 
 void func(long A[],long l)
 {
 	long B[l];

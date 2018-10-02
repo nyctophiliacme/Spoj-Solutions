@@ -8,10 +8,8 @@ void dfs(int x)
 	size=a[x].size();
 	for(i=0;i<size;i++)
 	{
-	//	cout<<x<<"->"<<a[x][i]<<" "<<b[x]<<" "<<b[a[x][i]]<<"\n";
 		if(b[a[x][i]]==b[x])
 		{
-	//		cout<<"\nflag\n";
 			flag=1;return;
 		}
 		else if(b[a[x][i]]==-1)
@@ -56,7 +54,6 @@ int main()
 			{
 				b[i]=0;dfs(i);
 			}
-			//cout<<"\n";
 		}
      	printf("Scenario #%d:\n",k);
 		if(flag)

@@ -63,8 +63,7 @@ while(t--)
 	ans=0;
 	for(i=1;i<=n;i++)
 	{
-		ans+=key[i];//cout<<i<<"\t"<<par[i]<<"\t"<<key[i]<<"\n";
-	}
+		ans+=key[i];
 	ans*=p;
 	printf("%lld\n",ans);
 }
