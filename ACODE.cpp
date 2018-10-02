@@ -22,7 +22,6 @@ int main()
 		for(i=1;i<l;i++)
 		{
 			cur=a[i]-'0';
-			//cout<<"cur "<<cur<<"\n";
 			if(!cur)
 			{
 				y=x;x=0;
@@ -38,7 +37,6 @@ int main()
 					x=y;
 				}
 			}
-			//cout<<"x "<<x<<"y "<<y<<"\n";
 			prev=cur;
 		}
 		printf("%lld\n",y);
